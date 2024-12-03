@@ -7,7 +7,7 @@ import Footer from "./Footer";
 
 
 let firstNameRegEx = /^[a-zA-Z\s]+$/;
-let lastNameRegEx = /^[a-zA-Z\s\'\-]+$/;
+let lastNameRegEx = /^[a-zA-Z\s'-]+$/;
 let emailRegEx = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-.]+\.[a-zA-Z0-9-.]{2,6}$/;
 let passwordRegEx = /((?=(.*[a-z])+)(?=(.*[A-Z])+)(?=(.*[0-9])+)(?=(.*[!@#$%^&*(),.?":{}|<>])+))[a-zA-Z0-9!@#$%^&*(),.?":{}|<>_-]{12,}$/;
 

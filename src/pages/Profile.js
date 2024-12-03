@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, useLocation} from 'react-router-dom';
+import {useLocation} from 'react-router-dom';
 import Header from '../element/Header';
 import './css/styles.css'
 import Footer from "../element/Footer";
